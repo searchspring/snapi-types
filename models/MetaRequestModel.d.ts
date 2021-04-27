@@ -12,13 +12,13 @@
 /**
  * 
  * @export
- * @interface SearchRequestModelTracking
+ * @interface MetaRequestModel
  */
-export interface SearchRequestModelTracking {
+export interface MetaRequestModel {
     /**
-     * 
+     * siteId of account
      * @type {string}
-     * @memberof SearchRequestModelTracking
+     * @memberof MetaRequestModel
      */
-    loggedInUserId?: string;
+    siteId: string;
 }

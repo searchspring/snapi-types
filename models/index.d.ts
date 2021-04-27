@@ -6,7 +6,7 @@ export * from './AutocompleteResponseModelAllOf';
 export * from './AutocompleteResponseModelAllOfAutocomplete';
 export * from './AutocompleteResponseModelAllOfAutocompleteAlternatives';
 export * from './AutocompleteResponseModelAllOfAutocompleteSuggested';
-export * from './MetaRequestParameterModel';
+export * from './MetaRequestModel';
 export * from './MetaResponseModel';
 export * from './MetaResponseModelFacet';
 export * from './MetaResponseModelFacetDefaults';
