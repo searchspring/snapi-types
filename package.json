@@ -1,0 +1,12 @@
+{
+	"name": "@searchspring/snapi-types",
+	"version": "0.1.15",
+	"description": "Snapi Typescript Definitions",
+	"author": "Searchspring",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/searchspring/snapi-types.git"
+	},
+	"types": "index.d.ts"
+}
