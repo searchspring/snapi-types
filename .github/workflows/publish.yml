@@ -1,0 +1,29 @@
+name: Publication
+
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  publish:
+    name: Snapi Types
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [12]
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Publish Package to Github
+        run: |
+          echo '//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}' > .npmrc
+          npm config set registry https://npm.pkg.github.com
+          npm publish
