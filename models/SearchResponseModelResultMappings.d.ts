@@ -5,7 +5,7 @@
  * snAPI
  * Searchspring Snap Search API
  *
- * Built from snAPI spec v0.1.16
+ * Built from snAPI spec v0.1.17
  *
  */
 import {
@@ -16,13 +16,13 @@ import {
 /**
  * 
  * @export
- * @interface SearchResponseModelMappings
+ * @interface SearchResponseModelResultMappings
  */
-export interface SearchResponseModelMappings {
+export interface SearchResponseModelResultMappings {
     /**
      * 
      * @type {SearchResponseModelResultCoreMappings}
-     * @memberof SearchResponseModelMappings
+     * @memberof SearchResponseModelResultMappings
      */
     core?: SearchResponseModelResultCoreMappings;
 }

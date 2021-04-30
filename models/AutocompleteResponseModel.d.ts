@@ -5,7 +5,7 @@
  * snAPI
  * Searchspring Snap Search API
  *
- * Built from snAPI spec v0.1.16
+ * Built from snAPI spec v0.1.17
  *
  */
 import {
@@ -16,7 +16,7 @@ import {
     SearchResponseModelFilter,
     SearchResponseModelMerchandising,
     SearchResponseModelPagination,
-    SearchResponseModelResults,
+    SearchResponseModelResult,
     SearchResponseModelSearch,
     SearchResponseModelSorting,
 } from './';
@@ -60,10 +60,10 @@ export interface AutocompleteResponseModel {
     sorting?: Array<SearchResponseModelSorting>;
     /**
      * 
-     * @type {Array<SearchResponseModelResults>}
+     * @type {Array<SearchResponseModelResult>}
      * @memberof AutocompleteResponseModel
      */
-    results?: Array<SearchResponseModelResults>;
+    results?: Array<SearchResponseModelResult>;
     /**
      * 
      * @type {Array<SearchResponseModelFacet>}
