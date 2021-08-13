@@ -5,7 +5,7 @@
  * snAPI
  * Searchspring Snap Search API
  *
- * Built from snAPI spec v0.1.17
+ * Built from snAPI spec v0.1.18
  *
  */
 
@@ -22,6 +22,30 @@ export interface SearchResponseModelResultCoreMappings {
      */
     uid?: string;
     /**
+     * SKU for result
+     * @type {string}
+     * @memberof SearchResponseModelResultCoreMappings
+     */
+    sku?: string;
+    /**
+     * Name for result
+     * @type {string}
+     * @memberof SearchResponseModelResultCoreMappings
+     */
+    name?: string;
+    /**
+     * URL of result
+     * @type {string}
+     * @memberof SearchResponseModelResultCoreMappings
+     */
+    url?: string;
+    /**
+     * Add to cart URL of result
+     * @type {string}
+     * @memberof SearchResponseModelResultCoreMappings
+     */
+    addToCartUrl?: string;
+    /**
      * Normal price of result
      * @type {number}
      * @memberof SearchResponseModelResultCoreMappings
@@ -34,11 +58,11 @@ export interface SearchResponseModelResultCoreMappings {
      */
     msrp?: number;
     /**
-     * URL of result
+     * Normal thumbnail image URL for result
      * @type {string}
      * @memberof SearchResponseModelResultCoreMappings
      */
-    url?: string;
+    imageUrl?: string;
     /**
      * Smaller thumbnail image URL for result
      * @type {string}
@@ -46,27 +70,39 @@ export interface SearchResponseModelResultCoreMappings {
      */
     thumbnailImageUrl?: string;
     /**
-     * Normal thumbnail image URL for result
-     * @type {string}
+     * Review rating of result
+     * @type {number}
      * @memberof SearchResponseModelResultCoreMappings
      */
-    imageUrl?: string;
+    rating?: number;
     /**
-     * Name for result
+     * Number of reviews for result
      * @type {string}
      * @memberof SearchResponseModelResultCoreMappings
      */
-    name?: string;
+    ratingCount?: string;
     /**
-     * SKU for result
+     * Description of result
      * @type {string}
      * @memberof SearchResponseModelResultCoreMappings
      */
-    sku?: string;
+    description?: string;
+    /**
+     * Stock Message of result
+     * @type {string}
+     * @memberof SearchResponseModelResultCoreMappings
+     */
+    stockMessage?: string;
     /**
      * Brand of result
      * @type {string}
      * @memberof SearchResponseModelResultCoreMappings
      */
     brand?: string;
+    /**
+     * Popularity rating of result
+     * @type {number}
+     * @memberof SearchResponseModelResultCoreMappings
+     */
+    popularity?: number;
 }

@@ -1,4 +1,4 @@
-# Snapi Types v0.1.17
+# Snapi Types v0.1.18
 
 :warning: **WARNING!!!** :warning:
 ### This repo is auto generated - do not commit directly. Instead make changes to the generator repo.
