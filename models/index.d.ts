@@ -29,6 +29,7 @@ export * from './SearchRequestModelFilterValue';
 export * from './SearchRequestModelFilterValueAllOf';
 export * from './SearchRequestModelMerchandising';
 export * from './SearchRequestModelPagination';
+export * from './SearchRequestModelPersonalization';
 export * from './SearchRequestModelSearch';
 export * from './SearchRequestModelSearchQuery';
 export * from './SearchRequestModelSorts';

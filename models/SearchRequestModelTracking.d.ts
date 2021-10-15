@@ -5,7 +5,7 @@
  * snAPI
  * Searchspring Snap Search API
  *
- * Built from snAPI spec v0.1.20
+ * Built from snAPI spec v0.1.21
  *
  */
 
@@ -16,13 +16,7 @@
  */
 export interface SearchRequestModelTracking {
     /**
-     * 
-     * @type {string}
-     * @memberof SearchRequestModelTracking
-     */
-    loggedInUserId?: string;
-    /**
-     * 
+     * shopper identifier
      * @type {string}
      * @memberof SearchRequestModelTracking
      */
