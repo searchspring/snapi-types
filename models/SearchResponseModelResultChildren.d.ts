@@ -5,13 +5,9 @@
  * snAPI
  * Searchspring Snap Search API
  *
- * Built from snAPI spec v0.1.22
+ * Built from snAPI spec v0.1.23
  *
  */
-import {
-    SearchResponseModelResultMappings,
-} from './';
-
 
 /**
  * 
@@ -19,12 +15,6 @@ import {
  * @interface SearchResponseModelResultChildren
  */
 export interface SearchResponseModelResultChildren {
-    /**
-     * 
-     * @type {SearchResponseModelResultMappings}
-     * @memberof SearchResponseModelResultChildren
-     */
-    mappings?: SearchResponseModelResultMappings;
     /**
      * Additional fields for results - these are site specific fields which can have various value types
      * @type {{ [key: string]: object; }}
