@@ -5,7 +5,7 @@
  * snAPI
  * Searchspring Snap Search API
  *
- * Built from snAPI spec v0.1.23
+ * Built from snAPI spec v0.1.24
  *
  */
 
@@ -15,6 +15,12 @@
  * @interface SearchRequestModelFacets
  */
 export interface SearchRequestModelFacets {
+    /**
+     * 
+     * @type {boolean}
+     * @memberof SearchRequestModelFacets
+     */
+    autoDrillDown?: boolean;
     /**
      * 
      * @type {number}
