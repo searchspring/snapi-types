@@ -5,7 +5,7 @@
  * snAPI
  * Searchspring Snap Search API
  *
- * Built from snAPI spec v0.1.24
+ * Built from snAPI spec v0.1.25
  *
  */
 
@@ -33,4 +33,18 @@ export interface SearchResponseModelSearch {
      * @memberof SearchResponseModelSearch
      */
     originalQuery?: string;
+    /**
+     * Indicates the type of search matching that was required for this search. Will return "expanded" when an Expanded Search is applied after finding zero results for the initial strict search.
+     * @type {string}
+     * @memberof SearchResponseModelSearch
+     */
+    matchType?: SearchResponseModelSearchMatchTypeEnum;
+}
+
+/**
+* @export
+* @enum {string}
+*/
+export enum SearchResponseModelSearchMatchTypeEnum {
+    Expanded = 'expanded'
 }
