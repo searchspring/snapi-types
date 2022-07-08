@@ -5,10 +5,11 @@
  * snAPI
  * Searchspring Snap Search API
  *
- * Built from snAPI spec v0.1.25
+ * Built from snAPI spec v0.1.26
  *
  */
 import {
+    SearchResponseModelMerchandisingCampaigns,
     SearchResponseModelMerchandisingContent,
 } from './';
 
@@ -25,6 +26,12 @@ export interface SearchResponseModelMerchandising {
      * @memberof SearchResponseModelMerchandising
      */
     redirect?: string;
+    /**
+     * 
+     * @type {Array<SearchResponseModelMerchandisingCampaigns>}
+     * @memberof SearchResponseModelMerchandising
+     */
+    campaigns?: Array<SearchResponseModelMerchandisingCampaigns>;
     /**
      * 
      * @type {SearchResponseModelMerchandisingContent}

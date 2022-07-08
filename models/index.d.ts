@@ -48,6 +48,7 @@ export * from './SearchResponseModelFilter';
 export * from './SearchResponseModelFilterRange';
 export * from './SearchResponseModelFilterValue';
 export * from './SearchResponseModelMerchandising';
+export * from './SearchResponseModelMerchandisingCampaigns';
 export * from './SearchResponseModelMerchandisingContent';
 export * from './SearchResponseModelMerchandisingContentConfig';
 export * from './SearchResponseModelMerchandisingContentConfigPosition';
