@@ -5,7 +5,7 @@
  * snAPI
  * Searchspring Snap Search API
  *
- * Built from snAPI spec v0.1.28
+ * Built from snAPI spec v0.1.29
  *
  */
 
@@ -39,4 +39,10 @@ export interface SearchRequestModelMerchandising {
      * @memberof SearchRequestModelMerchandising
      */
     intellisuggest?: boolean;
+    /**
+     * 
+     * @type {boolean}
+     * @memberof SearchRequestModelMerchandising
+     */
+    disableInlineBanners?: boolean;
 }
