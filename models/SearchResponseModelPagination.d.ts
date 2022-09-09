@@ -5,7 +5,7 @@
  * snAPI
  * Searchspring Snap Search API
  *
- * Built from snAPI spec v0.1.29
+ * Built from snAPI spec v0.1.30
  *
  */
 
@@ -27,12 +27,6 @@ export interface SearchResponseModelPagination {
      * @memberof SearchResponseModelPagination
      */
     page?: number;
-    /**
-     * 
-     * @type {number}
-     * @memberof SearchResponseModelPagination
-     */
-    defaultPageSize?: number;
     /**
      * 
      * @type {number}

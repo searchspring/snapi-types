@@ -18,6 +18,7 @@ export * from './MetaResponseModelFacetPalette';
 export * from './MetaResponseModelFacetSlider';
 export * from './MetaResponseModelFacetSliderAllOf';
 export * from './MetaResponseModelFacetValue';
+export * from './MetaResponseModelPagination';
 export * from './MetaResponseModelSortOption';
 export * from './SearchRequestModel';
 export * from './SearchRequestModelFacets';

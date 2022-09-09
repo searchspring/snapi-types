@@ -12,13 +12,13 @@
 /**
  * 
  * @export
- * @interface AutocompleteRequestModelSuggestions
+ * @interface MetaResponseModelPagination
  */
-export interface AutocompleteRequestModelSuggestions {
+export interface MetaResponseModelPagination {
     /**
      * 
      * @type {number}
-     * @memberof AutocompleteRequestModelSuggestions
+     * @memberof MetaResponseModelPagination
      */
-    count?: number;
+    defaultPageSize?: number;
 }
