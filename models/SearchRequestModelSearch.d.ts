@@ -5,7 +5,7 @@
  * snAPI
  * Searchspring Snap Search API
  *
- * Built from snAPI spec v0.1.30
+ * Built from snAPI spec v0.1.31
  *
  */
 import {
@@ -37,6 +37,12 @@ export interface SearchRequestModelSearch {
      * @memberof SearchRequestModelSearch
      */
     originalQuery?: string;
+    /**
+     * Integrated spell correction parameter is used as a fallback when the query parameter fails to return results.
+     * @type {string}
+     * @memberof SearchRequestModelSearch
+     */
+    fallbackQuery?: string;
     /**
      * Changes how Redirects behave in the response.
      * @type {string}
