@@ -16,7 +16,7 @@
  */
 export interface SearchRequestModelSearchQuery {
     /**
-     * 
+     * Query value will search the index for terms that match the query. Will support up to 256 characters.
      * @type {string}
      * @memberof SearchRequestModelSearchQuery
      */
