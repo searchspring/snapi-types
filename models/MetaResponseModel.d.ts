@@ -5,10 +5,11 @@
  * snAPI
  * Searchspring Snap Search API
  *
- * Built from snAPI spec v0.1.32
+ * Built from snAPI spec v0.1.33
  *
  */
 import {
+    MetaResponseModelBadges,
     MetaResponseModelFacet,
     MetaResponseModelPagination,
     MetaResponseModelSortOption,
@@ -39,4 +40,10 @@ export interface MetaResponseModel {
      * @memberof MetaResponseModel
      */
     pagination?: MetaResponseModelPagination;
+    /**
+     * 
+     * @type {MetaResponseModelBadges}
+     * @memberof MetaResponseModel
+     */
+    badges?: MetaResponseModelBadges;
 }

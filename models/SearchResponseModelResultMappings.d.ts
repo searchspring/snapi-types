@@ -5,7 +5,7 @@
  * snAPI
  * Searchspring Snap Search API
  *
- * Built from snAPI spec v0.1.32
+ * Built from snAPI spec v0.1.33
  *
  */
 import {
@@ -25,4 +25,10 @@ export interface SearchResponseModelResultMappings {
      * @memberof SearchResponseModelResultMappings
      */
     core?: SearchResponseModelResultCoreMappings;
+    /**
+     * List of matching badges for the result
+     * @type {Array<object>}
+     * @memberof SearchResponseModelResultMappings
+     */
+    badges?: Array<object>;
 }
