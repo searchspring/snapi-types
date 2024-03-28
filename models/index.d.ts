@@ -64,5 +64,6 @@ export * from './SearchResponseModelResult';
 export * from './SearchResponseModelResultChildren';
 export * from './SearchResponseModelResultCoreMappings';
 export * from './SearchResponseModelResultMappings';
+export * from './SearchResponseModelResultMappingsBadges';
 export * from './SearchResponseModelSearch';
 export * from './SearchResponseModelSorting';

@@ -5,7 +5,7 @@
  * snAPI
  * Searchspring Snap Search API
  *
- * Built from snAPI spec v0.1.33
+ * Built from snAPI spec v0.1.34
  *
  */
 import {
@@ -25,11 +25,11 @@ export interface MetaResponseModelBadgesLocations {
      * @type {MetaResponseModelBadgesLocationsOverlay}
      * @memberof MetaResponseModelBadgesLocations
      */
-    overlay?: MetaResponseModelBadgesLocationsOverlay;
+    overlay: MetaResponseModelBadgesLocationsOverlay;
     /**
      * 
      * @type {Array<MetaResponseModelBadgeLocation>}
      * @memberof MetaResponseModelBadgesLocations
      */
-    callouts?: Array<MetaResponseModelBadgeLocation>;
+    callouts: Array<MetaResponseModelBadgeLocation>;
 }
