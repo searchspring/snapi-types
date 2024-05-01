@@ -12,7 +12,6 @@ export * from './MetaResponseModelBadgeLocation';
 export * from './MetaResponseModelBadgeTag';
 export * from './MetaResponseModelBadges';
 export * from './MetaResponseModelBadgesLocations';
-export * from './MetaResponseModelBadgesLocationsOverlay';
 export * from './MetaResponseModelFacet';
 export * from './MetaResponseModelFacetDefaults';
 export * from './MetaResponseModelFacetGrid';
