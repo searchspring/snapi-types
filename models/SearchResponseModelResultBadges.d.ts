@@ -12,19 +12,19 @@
 /**
  * 
  * @export
- * @interface MetaResponseModelBadgeLocation
+ * @interface SearchResponseModelResultBadges
  */
-export interface MetaResponseModelBadgeLocation {
+export interface SearchResponseModelResultBadges {
     /**
      * 
      * @type {string}
-     * @memberof MetaResponseModelBadgeLocation
+     * @memberof SearchResponseModelResultBadges
      */
     tag: string;
     /**
      * 
      * @type {string}
-     * @memberof MetaResponseModelBadgeLocation
+     * @memberof SearchResponseModelResultBadges
      */
-    name: string;
+    value?: string;
 }

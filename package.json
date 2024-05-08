@@ -1,6 +1,6 @@
 {
 	"name": "@searchspring/snapi-types",
-	"version": "0.1.36",
+	"version": "0.1.37",
 	"description": "Snapi Typescript Definitions",
 	"author": "Searchspring",
 	"license": "MIT",
