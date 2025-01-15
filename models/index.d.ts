@@ -58,6 +58,7 @@ export * from './SearchResponseModelMerchandisingContent';
 export * from './SearchResponseModelMerchandisingContentConfig';
 export * from './SearchResponseModelMerchandisingContentConfigPosition';
 export * from './SearchResponseModelMerchandisingContentInline';
+export * from './SearchResponseModelMerchandisingExperiments';
 export * from './SearchResponseModelPagination';
 export * from './SearchResponseModelResult';
 export * from './SearchResponseModelResultBadges';

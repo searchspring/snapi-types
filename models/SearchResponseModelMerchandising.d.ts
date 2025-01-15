@@ -11,6 +11,7 @@
 import {
     SearchResponseModelMerchandisingCampaigns,
     SearchResponseModelMerchandisingContent,
+    SearchResponseModelMerchandisingExperiments,
 } from './';
 
 
@@ -32,6 +33,12 @@ export interface SearchResponseModelMerchandising {
      * @memberof SearchResponseModelMerchandising
      */
     campaigns?: Array<SearchResponseModelMerchandisingCampaigns>;
+    /**
+     * 
+     * @type {Array<SearchResponseModelMerchandisingExperiments>}
+     * @memberof SearchResponseModelMerchandising
+     */
+    experiments?: Array<SearchResponseModelMerchandisingExperiments>;
     /**
      * 
      * @type {boolean}
