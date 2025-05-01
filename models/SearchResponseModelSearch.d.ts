@@ -5,7 +5,7 @@
  * snAPI
  * Searchspring Snap Search API
  *
- * Built from snAPI spec v0.1.38
+ * Built from snAPI spec v0.1.39
  *
  */
 
@@ -46,5 +46,6 @@ export interface SearchResponseModelSearch {
 * @enum {string}
 */
 export enum SearchResponseModelSearchMatchTypeEnum {
-    Expanded = 'expanded'
+    Expanded = 'expanded',
+    Primary = 'primary'
 }
