@@ -5,7 +5,7 @@
  * snAPI
  * Searchspring Snap Search API
  *
- * Built from snAPI spec v0.1.40
+ * Built from snAPI spec v0.1.41
  *
  */
 import {
@@ -27,12 +27,6 @@ export interface SearchResponseModelResult {
      * @memberof SearchResponseModelResult
      */
     id?: string;
-    /**
-     * 
-     * @type {number}
-     * @memberof SearchResponseModelResult
-     */
-    position?: number;
     /**
      * 
      * @type {SearchResponseModelResultMappings}
