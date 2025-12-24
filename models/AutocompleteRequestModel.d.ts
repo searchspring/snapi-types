@@ -10,6 +10,7 @@
  */
 import {
     AutocompleteRequestModelAllOf,
+    AutocompleteRequestModelSearch,
     AutocompleteRequestModelSuggestions,
     SearchRequestModel,
     SearchRequestModelFacets,
@@ -17,7 +18,6 @@ import {
     SearchRequestModelMerchandising,
     SearchRequestModelPagination,
     SearchRequestModelPersonalization,
-    SearchRequestModelSearch,
     SearchRequestModelSorts,
     SearchRequestModelTracking,
 } from './';
@@ -29,12 +29,6 @@ import {
  * @interface AutocompleteRequestModel
  */
 export interface AutocompleteRequestModel {
-    /**
-     * 
-     * @type {AutocompleteRequestModelSuggestions}
-     * @memberof AutocompleteRequestModel
-     */
-    suggestions?: AutocompleteRequestModelSuggestions;
     /**
      * 
      * @type {string}
@@ -49,10 +43,10 @@ export interface AutocompleteRequestModel {
     sorts?: Array<SearchRequestModelSorts>;
     /**
      * 
-     * @type {SearchRequestModelSearch}
+     * @type {AutocompleteRequestModelSearch}
      * @memberof AutocompleteRequestModel
      */
-    search?: SearchRequestModelSearch;
+    search?: AutocompleteRequestModelSearch;
     /**
      * 
      * @type {Array<SearchRequestModelFilter>}
@@ -89,4 +83,10 @@ export interface AutocompleteRequestModel {
      * @memberof AutocompleteRequestModel
      */
     personalization?: SearchRequestModelPersonalization;
+    /**
+     * 
+     * @type {AutocompleteRequestModelSuggestions}
+     * @memberof AutocompleteRequestModel
+     */
+    suggestions?: AutocompleteRequestModelSuggestions;
 }

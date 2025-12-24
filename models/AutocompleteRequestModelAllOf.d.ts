@@ -9,6 +9,7 @@
  *
  */
 import {
+    AutocompleteRequestModelSearch,
     AutocompleteRequestModelSuggestions,
 } from './';
 
@@ -19,6 +20,12 @@ import {
  * @interface AutocompleteRequestModelAllOf
  */
 export interface AutocompleteRequestModelAllOf {
+    /**
+     * 
+     * @type {AutocompleteRequestModelSearch}
+     * @memberof AutocompleteRequestModelAllOf
+     */
+    search?: AutocompleteRequestModelSearch;
     /**
      * 
      * @type {AutocompleteRequestModelSuggestions}

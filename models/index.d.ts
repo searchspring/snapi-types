@@ -1,5 +1,7 @@
 export * from './AutocompleteRequestModel';
 export * from './AutocompleteRequestModelAllOf';
+export * from './AutocompleteRequestModelSearch';
+export * from './AutocompleteRequestModelSearchAllOf';
 export * from './AutocompleteRequestModelSuggestions';
 export * from './AutocompleteResponseModel';
 export * from './AutocompleteResponseModelAllOf';
