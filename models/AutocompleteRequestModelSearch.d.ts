@@ -5,7 +5,7 @@
  * snAPI
  * Searchspring Snap Search API
  *
- * Built from snAPI spec v0.1.41
+ * Built from snAPI spec v0.1.42
  *
  */
 import {
@@ -52,13 +52,13 @@ export interface AutocompleteRequestModelSearch {
      */
     redirectResponse?: AutocompleteRequestModelSearchRedirectResponseEnum;
     /**
-     * 
+     * current input from the user
      * @type {string}
      * @memberof AutocompleteRequestModelSearch
      */
     input?: string;
     /**
-     * 
+     * source of the autocomplete request ("historical", "popular", "suggested" or "typed")
      * @type {string}
      * @memberof AutocompleteRequestModelSearch
      */
