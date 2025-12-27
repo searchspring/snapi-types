@@ -5,7 +5,7 @@
  * snAPI
  * Searchspring Snap Search API
  *
- * Built from snAPI spec v0.1.43
+ * Built from snAPI spec v0.1.44
  *
  */
 import {
@@ -16,6 +16,7 @@ import {
     SearchResponseModelResult,
     SearchResponseModelSearch,
     SearchResponseModelSorting,
+    SearchResponseModelTracking,
 } from './';
 
 
@@ -67,4 +68,10 @@ export interface SearchResponseModel {
      * @memberof SearchResponseModel
      */
     merchandising?: SearchResponseModelMerchandising;
+    /**
+     * 
+     * @type {SearchResponseModelTracking}
+     * @memberof SearchResponseModel
+     */
+    tracking?: SearchResponseModelTracking;
 }

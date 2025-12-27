@@ -12,13 +12,13 @@
 /**
  * 
  * @export
- * @interface MetaResponseModelFacet
+ * @interface SearchResponseModelTracking
  */
-export interface MetaResponseModelFacet {
+export interface SearchResponseModelTracking {
     /**
      * 
      * @type {string}
-     * @memberof MetaResponseModelFacet
+     * @memberof SearchResponseModelTracking
      */
-    display?: string;
+    responseId?: string;
 }

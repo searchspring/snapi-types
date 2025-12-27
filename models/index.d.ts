@@ -69,3 +69,4 @@ export * from './SearchResponseModelResultCoreMappings';
 export * from './SearchResponseModelResultMappings';
 export * from './SearchResponseModelSearch';
 export * from './SearchResponseModelSorting';
+export * from './SearchResponseModelTracking';
