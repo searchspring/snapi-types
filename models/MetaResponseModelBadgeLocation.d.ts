@@ -5,7 +5,7 @@
  * snAPI
  * Searchspring Snap Search API
  *
- * Built from snAPI spec v0.1.45
+ * Built from snAPI spec v0.1.46
  *
  */
 
